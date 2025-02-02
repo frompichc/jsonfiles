@@ -2,10 +2,36 @@
   "posts": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "hello",
+      "content": "This is the first post content.",
+      "author": "typicode",
+      "tags": ["greeting", "intro"],
+      "created_at": "2025-02-02T10:00:00Z",
+      "likes": 10,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Nice post!",
+          "date": "2025-02-02T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Another Post",
+      "content": "This is another example post.",
+      "author": "typicode",
+      "tags": ["example", "test"],
+      "created_at": "2025-02-02T11:00:00Z",
+      "likes": 5,
+      "comments": []
     }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "typicode",
+    "bio": "Software developer and blogger.",
+    "location": "San Francisco, CA",
+    "website": "https://typicode.com",
+    "followers": 1500
   }
 }
